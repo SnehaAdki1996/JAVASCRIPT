@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "JavaScript Basic",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnehaAdki1996/JAVASCRIPT.git"
+  },
+  "keywords": [
+    "JAVASCRIPT"
+  ],
+  "author": "Sneha Adki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnehaAdki1996/JAVASCRIPT/issues"
+  },
+  "homepage": "https://github.com/SnehaAdki1996/JAVASCRIPT#readme"
+}
