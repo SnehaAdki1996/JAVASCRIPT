@@ -39,8 +39,70 @@
                 <img src="static/images/download.jpg" alt=""> -->
             </div>
     </div>
+
+    <div class="container-3">
+        <h2> Challenge 3: Rock, Paper, Scissor </h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="stone" src="static/images/stone.jpg" height="150" width="150" onclick="rpsGame(this)" alt="">
+            <img id="scissors" src="static/images/sissor.jpg" height="150" width="150" onclick="rpsGame(this)" alt="">
+            <img id="paper" src="static/images/paper.png" height="150" width="150" onclick="rpsGame(this)" alt="">
+        </div>
+    </div>
+
+    <div class="container-4">
+            <h2 id="change-my-color"> Challenge 4: Change the color of button </h2>
+            <div class="flex-box-pick-color" >
+               <form action="">
+                   <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                        <option value="random">Random</option>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="reset">Reset</option>
+                    </select>
+               </form>
+               <button class="btn btn-primary">Weeee!</button>
+               <button class="btn btn-danger">Yahooo!</button>
+               <button class="btn btn-warning">Google!</button>
+               <button class="btn btn-success">Facebook!</button>
+            </div>
+    </div>
+
+    <div  class="container-5">
+        <h2>Challenge 5 : Blackjack</h2>
+        <h3><span id="blackjack-result">Let's Play</span></h3>
+        <div class="flex-blackjack-row-1">
+            <div id="your-box">
+                <h2>You : <span id="your-blackjack-result">0</span></h2>
+            </div>
+            <div id="dealer-box">
+                <h2>Dealer : <span id="dealer-blackjack-result">0</span></h2>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button id="blackjack-hit-button" class="btn btn-primary mr-2 ">Hit</button>
+                <button id="blackjack-stand-button" class="btn btn-Warning mr-2">Stand</button>
+                <button id="blackjack-deal-button" class="btn btn-danger mr-2">Deal</button>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-3">
+            <table >
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="loses">0</span></td>
+                    <td><span id="draw">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
     <script src="static/js/script.js"></script>
 </body>
 
 </html>
-<script></script>
+<!-- <script></script> -->

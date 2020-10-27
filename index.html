@@ -1,13 +1,30 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
     <h1 id="someText"></h1>
-    <script src="home.js">
+    <script>
+        let student = `[
+            {
+                "name": "Sneha",
+                "age": 23,
+                "height": 160
+            },
+            {
+                "name": "Vijay",
+                "age": 22,
+                "height": 170
+            }
+        ]`
+        console.log(JSON.parse(student))
+        console.log(JSON.parse(student)[1].name)
     </script>
 </body>
+
 </html>
